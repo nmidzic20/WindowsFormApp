@@ -8,8 +8,8 @@ namespace Lab1_LoginRegistration.Models
 {
     enum UserType
     {
-        Employee,
+        Administrator,
         Guest,
-        Administrator
+        Employee
     }
 }

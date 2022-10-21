@@ -29,13 +29,20 @@ namespace Lab1_LoginRegistration
             {
                 if (username == user.Username && password == user.Password)
                 {
-                    MessageBox.Show("User"+username+"is successfully logged in!", "", MessageBoxButtons.OK);
+                    MessageBox.Show("User " + username + " is successfully logged in!", "", MessageBoxButtons.OK);
                     return;
                 }
             }
 
             MessageBox.Show("Entered credentials are not valid!", "", MessageBoxButtons.OK);
                        
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            FormRegistration frmRegistration = new FormRegistration(this);
+            this.Hide();
+            frmRegistration.Show();
         }
     }
 }
