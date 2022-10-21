@@ -52,6 +52,12 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistration.Designer.cs">
+      <DependentUpon>FormRegistration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserType.cs" />
     <Compile Include="Program.cs" />
@@ -59,6 +65,9 @@
     <Compile Include="Repositories\UserRepository.cs" />
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistration.resx">
+      <DependentUpon>FormRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

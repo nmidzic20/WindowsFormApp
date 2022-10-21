@@ -29,7 +29,7 @@ namespace Lab1_LoginRegistration
             {
                 if (username == user.Username && password == user.Password)
                 {
-                    MessageBox.Show("User is successfully logged in!", "", MessageBoxButtons.OK);
+                    MessageBox.Show("User"+username+"is successfully logged in!", "", MessageBoxButtons.OK);
                     return;
                 }
             }
