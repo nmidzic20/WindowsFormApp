@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab1_LoginRegistration.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,26 @@ namespace Lab1_LoginRegistration
         public FormLogin()
         {
             InitializeComponent();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            var usersList = UserRepository.getUsers();
+
+            foreach (var user in usersList)
+            {
+                if (username == user.Username && password == user.Password)
+                {
+                    MessageBox.Show("User is successfully logged in!", "", MessageBoxButtons.OK);
+                    return;
+                }
+            }
+
+            MessageBox.Show("Entered credentials are not valid!", "", MessageBoxButtons.OK);
+                       
         }
     }
 }
