@@ -23,7 +23,7 @@ namespace Lab1_LoginRegistration
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            var usersList = UserRepository.getUsers();
+            var usersList = UserRepository.users;
 
             foreach (var user in usersList)
             {

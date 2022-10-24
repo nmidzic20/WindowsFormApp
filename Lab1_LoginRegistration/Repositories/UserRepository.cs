@@ -10,10 +10,5 @@ namespace Lab1_LoginRegistration.Repositories
     internal static class UserRepository
     {
         public static List<User> users = new List<User>();
-
-        public static List<User> getUsers()
-        {
-            return users;
-        }
     }
 }
