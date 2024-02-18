@@ -1,4 +1,4 @@
-A simple Windows Form desktop application created for Software Development course.
+A simple Windows Form desktop application created for the first laboratory exercise in the course Software Development.
 
 # Laboratory Exercise Task
 
