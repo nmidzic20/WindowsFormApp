@@ -15,9 +15,9 @@ When solving the task, it is necessary to version the source code as follows:
 - 1.3. Based on the main branch, create a new short-lived branch named UserLogin and make it the active branch.
   - 1.3.1. Design the login form and commit it to the new branch.
   - 1.3.2. Implement the program logic for user login and commit it to the new branch.
-- 1.4. After testing, merge the functionality implemented in the UserLogin branch into the main branch. Do not delete the UserLogin branch.
+- 1.4. After testing, merge the functionality implemented in the UserLogin branch into the main branch.
 - 1.5. Based on the main branch, create a new short-lived branch named UserRegistration and make it the active branch.
   - 1.5.1. Design the registration form and commit it to the new branch.
   - 1.5.2. Implement the program logic for user registration and commit it to the new branch.
-- 1.6. After testing, merge the functionality implemented in the UserRegistration branch into the main branch. Do not delete the UserRegistration branch.
+- 1.6. After testing, merge the functionality implemented in the UserRegistration branch into the main branch.
 - 1.7. Additionally test the solution, make any necessary corrections, and commit them to the main.
